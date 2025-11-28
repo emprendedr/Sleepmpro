@@ -1,0 +1,6 @@
+version: 2
+updates:
+  - package-ecosystem: "npm" # Cambia según el gestor de paquetes que utilices
+    directory: "/" # Directorio base donde está el archivo de tu paquete
+    schedule:
+      interval: "daily" # Ajusta la frecuencia si lo prefieres semanal, mensual, etc.
